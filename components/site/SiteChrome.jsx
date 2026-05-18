@@ -14,6 +14,7 @@ import {
   Mail,
   MapPin,
   Menu,
+  Phone,
   Sun,
   X,
   Zap,
@@ -130,7 +131,10 @@ function TopBar() {
         </div>
 
         <div className="flex items-center gap-4 text-white/70">
-          <span className="hidden md:flex items-center gap-3">
+          <a href={`tel:${business.phoneHref}`} className="flex items-center gap-1.5 hover:text-white transition-colors">
+            <Phone size={12} /> {business.phoneDisplay}
+          </a>
+          <span className="hidden md:flex items-center gap-3 pl-4 border-l border-white/10">
             {socialLinks.map((item) => {
               const Icon = socialIconByLabel[item.label] || Mail;
 

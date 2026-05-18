@@ -163,7 +163,8 @@ function TopBar() {
           <span className="hidden md:flex items-center gap-1.5"><Clock size={12} /> Mon–Sat 7am–5pm</span>
         </div>
         <div className="flex items-center gap-4 text-white/70">
-          <span className="hidden md:flex items-center gap-3">
+          <a href="tel:1300729477" className="flex items-center gap-1.5 hover:text-white transition-colors"><Phone size={12} /> 1300 729 477</a>
+          <span className="hidden md:flex items-center gap-3 pl-4 border-l border-white/10">
             <a href="/contact" aria-label="Facebook" className="hover:text-white"><Facebook size={13} /></a>
             <a href="/contact" aria-label="Instagram" className="hover:text-white"><Instagram size={13} /></a>
             <a href="/contact" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={13} /></a>
