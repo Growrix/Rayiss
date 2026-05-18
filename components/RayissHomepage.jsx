@@ -163,8 +163,7 @@ function TopBar() {
           <span className="hidden md:flex items-center gap-1.5"><Clock size={12} /> Mon–Sat 7am–5pm</span>
         </div>
         <div className="flex items-center gap-4 text-white/70">
-          <a href="tel:1300729477" className="flex items-center gap-1.5 hover:text-white transition-colors"><Phone size={12} /> 1300 729 477</a>
-          <span className="hidden md:flex items-center gap-3 pl-4 border-l border-white/10">
+          <span className="hidden md:flex items-center gap-3">
             <a href="/contact" aria-label="Facebook" className="hover:text-white"><Facebook size={13} /></a>
             <a href="/contact" aria-label="Instagram" className="hover:text-white"><Instagram size={13} /></a>
             <a href="/contact" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={13} /></a>
@@ -249,9 +248,6 @@ function Navigation() {
         </div>
 
         <div className="hidden lg:flex items-center gap-3 shrink-0">
-          <a href="tel:1300729477" className="hidden 2xl:flex text-sm font-medium items-center gap-1.5">
-            <Phone size={14} /> 1300 729 477
-          </a>
           <a href="/contact" className="btn-primary" style={{ whiteSpace: 'nowrap' }}>Get a free quote <ArrowUpRight size={16} /></a>
         </div>
 
